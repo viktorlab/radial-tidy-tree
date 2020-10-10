@@ -77,7 +77,7 @@ function update(source) {
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => (d.isDruggable ? 'red' : '#fff'));
+    .style('fill', (d) => (d.isDruggable ? '#660066' : '#fff'));
 
   nodeUpdate
     .select('text')

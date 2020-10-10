@@ -1,5 +1,5 @@
 export const data = {
-  name: '#',
+  name: '',
   children: [
     {
       name: 'Class A',
