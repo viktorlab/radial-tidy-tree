@@ -165,3 +165,7 @@ function buildList(data) {
     `);
   });
 }
+
+$('#drugListModal').on('hidden.bs.modal', () => {
+  $('.body-content').html('');
+});
