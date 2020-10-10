@@ -124,6 +124,10 @@ function update(source) {
 
 // Toggle children on click.
 function handleClick(d) {
+  if (d.drugList && d.drugList.length > 0) {
+    showDrugList(d.drugList);
+  }
+
   if (d.children) {
     d._children = d.children;
     d.children = null;
@@ -143,3 +147,25 @@ function collapse(d) {
     d.children = null;
   }
 }
+
+function showDrugList(drugList) {
+  buildList(drugList);
+
+  $('#drugListModal').modal({
+    show: true,
+  });
+}
+
+function buildList(data) {
+  data.forEach((d) => {
+    $('.body-content').append(`
+    <ul class="list-group">
+      <li class="list-group-item">${d}</li>
+    </ul>
+    `);
+  });
+}
+
+$('#drugListModal').on('hidden.bs.modal', () => {
+  $('.body-content').html('');
+});
