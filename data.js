@@ -6,76 +6,494 @@ const dataClassA ={
       "children": [
         {
           "name": "Class A Orphans",
-          "children": []
+          "children": [
+            {
+              "name": "Class A Orphans",
+              "children": [
+                {
+                  "name": "P2RY8",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "P2RY10",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "MRGPRX1 (MRGX1)",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "MRGX2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "MRGX3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "MRGX4",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "MRGRG (GPR169)",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "MRGRF (GPR168)",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "MRGRE (GPR167)",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "MRGRD",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "TAAR2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "TAAR3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "TAAR5",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "TAAR6",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "TAAR8",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "TAAR9",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR4",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR6",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR12",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR15",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR17",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR19",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR20",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR21",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR22",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR25",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR26",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR27",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR31",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR32",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR33",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR34",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR35",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 3,
+                  "drugList": [
+                    "Pyrantel",
+                    "Bumetanide"
+                  ]
+                },
+                {
+                  "name": "GPR37",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR39",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR45",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR50 (MTR1L)",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR52",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR61",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR62",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR63",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR65      (PSYR)",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR68     (OGR1)",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR75",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": " ",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": " ",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": " ",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": " ",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR85",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR87",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR88",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR101",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR132",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR135",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR139",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR141",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR142",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR143",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR146",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR148",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR149",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR150",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR151",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR152",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR153",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR160",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR161",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR162",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR171",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR173",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR174",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR176",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR182",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR183",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GPR37L1 (ETBR2)",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "MAS1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "MAS1L",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Nucleotide",
           "children": [
-            {
-              "name": "Adenosine",
-              "children": [
-                {
-                  "name": "AA1R (ADORA1)",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 14,
-                  "drugList": [
-                    "Defibrotide",
-                    "Istradefylline",
-                    "Tramadol",
-                    "Caffeine",
-                    "Pentoxifylline",
-                    "Gabapentin",
-                    "Oxtriphylline",
-                    "Theophylline",
-                    "Lamotrigine",
-                    "Adenosine",
-                    "Dyphylline",
-                    "Aminophylline",
-                    "Cannabidiol"
-                  ]
-                },
-                {
-                  "name": "AA2AR (ADORA2A)",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 12,
-                  "drugList": [
-                    "Regadenoson",
-                    "Theophylline",
-                    "Mefloquine",
-                    "Lamotrigine",
-                    "Adenosine",
-                    "Dyphylline",
-                    "Pentoxifylline",
-                    "Enprofylline",
-                    "Oxtriphylline",
-                    "Defibrotide",
-                    "Istradefylline"
-                  ]
-                },
-                {
-                  "name": "AA2BR (ADORA2B)",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 5,
-                  "drugList": [
-                    "Caffeine",
-                    "Adenosine",
-                    "Defibrotide",
-                    "Enprofylline"
-                  ]
-                },
-                {
-                  "name": "AA3R (ADORA3)",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 5,
-                  "drugList": [
-                    "Enprofylline",
-                    "Aminophylline",
-                    "Adenosine",
-                    "Fostamatinib"
-                  ]
-                }
-              ]
-            },
             {
               "name": "P2Y",
               "children": [
@@ -187,123 +605,68 @@ const dataClassA ={
                   "drugList": []
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Sensory",
-          "children": [
+            },
             {
-              "name": "Opsins",
+              "name": "Adenosine",
               "children": [
                 {
-                  "name": "OPSR",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "OPSG",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "OPSB",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "OPSD",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "OPN3",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "OPN4",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "OPN5",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Alicarboxylic acid",
-          "children": [
-            {
-              "name": "Hydroxycarboxylic acid",
-              "children": [
-                {
-                  "name": "HCAR1",
+                  "name": "AA1R (ADORA1)",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 1,
-                  "drugList": []
-                },
-                {
-                  "name": "HCAR2",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 4,
+                  "numberOfApprovedDrugs": 14,
                   "drugList": [
-                    "Niacin",
-                    "Clotrimazole",
-                    "Acimpox"
+                    "Defibrotide",
+                    "Istradefylline",
+                    "Tramadol",
+                    "Caffeine",
+                    "Pentoxifylline",
+                    "Gabapentin",
+                    "Oxtriphylline",
+                    "Theophylline",
+                    "Lamotrigine",
+                    "Adenosine",
+                    "Dyphylline",
+                    "Aminophylline",
+                    "Cannabidiol"
                   ]
                 },
                 {
-                  "name": "HCAR3",
+                  "name": "AA2AR (ADORA2A)",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 2,
+                  "numberOfApprovedDrugs": 12,
                   "drugList": [
-                    "Niacin"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Steroid",
-          "children": []
-        },
-        {
-          "name": "Melatonin",
-          "children": [
-            {
-              "name": "Melatonin",
-              "children": [
-                {
-                  "name": "MTNR1A",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 4,
-                  "drugList": [
-                    "Melatonin",
-                    "Agomelatine",
-                    "Tasimelteon"
+                    "Regadenoson",
+                    "Theophylline",
+                    "Mefloquine",
+                    "Lamotrigine",
+                    "Adenosine",
+                    "Dyphylline",
+                    "Pentoxifylline",
+                    "Enprofylline",
+                    "Oxtriphylline",
+                    "Defibrotide",
+                    "Istradefylline"
                   ]
                 },
                 {
-                  "name": "MTNR1B",
+                  "name": "AA2BR (ADORA2B)",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 4,
+                  "numberOfApprovedDrugs": 5,
                   "drugList": [
-                    "Melatonin",
-                    "Agomelatine",
-                    "Tasimelteon"
+                    "Caffeine",
+                    "Adenosine",
+                    "Defibrotide",
+                    "Enprofylline"
+                  ]
+                },
+                {
+                  "name": "AA3R (ADORA3)",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 5,
+                  "drugList": [
+                    "Enprofylline",
+                    "Aminophylline",
+                    "Adenosine",
+                    "Fostamatinib"
                   ]
                 }
               ]
@@ -313,23 +676,6 @@ const dataClassA ={
         {
           "name": "Protein",
           "children": [
-            {
-              "name": "Prokineticin ",
-              "children": [
-                {
-                  "name": "PROKR1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "PROKR2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
             {
               "name": "Chemokine",
               "children": [
@@ -520,6 +866,23 @@ const dataClassA ={
                   ]
                 }
               ]
+            },
+            {
+              "name": "Prokineticin ",
+              "children": [
+                {
+                  "name": "PROKR1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "PROKR2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
             }
           ]
         },
@@ -527,31 +890,168 @@ const dataClassA ={
           "name": "Peptide",
           "children": [
             {
-              "name": "Proteinase-activated",
+              "name": "Opioid",
               "children": [
                 {
-                  "name": "F2R         (PAR1)",
+                  "name": "OPRD1",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 3,
+                  "numberOfApprovedDrugs": 40,
                   "drugList": [
-                    "Thrombin",
-                    "Streptokinase"
+                    "Codeine",
+                    "Hydromorphone",
+                    "Methadone",
+                    "Oxycodone",
+                    "Butorphanol",
+                    "Dextropropoxyphene",
+                    "Naltrexone",
+                    "Fentanyl",
+                    "Loperamide",
+                    "Nalbuphine",
+                    "Hydrocodone",
+                    "Naloxone",
+                    "Eluxadoline",
+                    "Naldemedine",
+                    "Tramadol",
+                    "Levorphanol",
+                    "Diphenoxylate",
+                    "Ketamin",
+                    "Cannabidiol",
+                    "Dextromethorphan",
+                    "Aripiprazole",
+                    "Diamorphine",
+                    "Nalmefene",
+                    "Pholcodine",
+                    "Amitriptyline",
+                    "Sulfentanil",
+                    "Remifentanil",
+                    "Buprenorphine",
+                    "Oxymorphone",
+                    "Tapentadol",
+                    "Avimopan",
+                    "Opium",
+                    "Dicumarol",
+                    "Tubocurarine",
+                    "Mephenytoin",
+                    "Diphenhydramine",
+                    "Methylergonovine",
+                    "Trimethadione"
                   ]
                 },
                 {
-                  "name": "F2RL1       (PAR2)",
+                  "name": "OPRK1",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 39,
+                  "drugList": [
+                    "Codeine",
+                    "Hydromorphone",
+                    "Progesterone",
+                    "Dextromethorphan",
+                    "Lamotrigine",
+                    "Levorphanol",
+                    "Naloxone",
+                    "Alvimopan",
+                    "Methylnaltrexone",
+                    "Pentoxyverine",
+                    "Mirtazapine",
+                    "Meperidine",
+                    "Butorphanol",
+                    "Pentazocine",
+                    "Naltrexone",
+                    "Sufentanil",
+                    "Fentanyl",
+                    "Levomenthol",
+                    "Loperamide",
+                    "Remifentanil",
+                    "Aripiprazole",
+                    "Diamorphine",
+                    "Tapentadol",
+                    "Nalmefene",
+                    "Pholcodine",
+                    "Eluxadoline",
+                    "Tramadol",
+                    "Atomoxetine",
+                    "Amitriptyline",
+                    "Oxycodone",
+                    "Dextropropoxyphene",
+                    "Nalbuphine",
+                    "Buprenorphine",
+                    "Dezocine",
+                    "Ketamine",
+                    "Mianserin",
+                    "Opium",
+                    "Naldemedine"
+                  ]
+                },
+                {
+                  "name": "OPRM1",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 45,
+                  "drugList": [
+                    "Dextromethorphan",
+                    "Alfentanil",
+                    "Loperamide",
+                    "Hydrocodone",
+                    "Naloxone",
+                    "Levacetylmethadol",
+                    "Aripiprazole",
+                    "Morphine",
+                    "Methadone",
+                    "Levallorphan",
+                    "Butorphanol",
+                    "Dextropropoxyphene",
+                    "Naltrexone",
+                    "Fentanyl",
+                    "Levorphanol",
+                    "Remifentanil",
+                    "Ondansetron",
+                    "Buprenorphine",
+                    "Diphenoxylate",
+                    "Oxymorphone",
+                    "Dezocine",
+                    "Nalmefene",
+                    "Naloxegol",
+                    "Trimebutine",
+                    "Pholcodine",
+                    "Eluxadoline",
+                    "Tramadol",
+                    "Codeine",
+                    "Amitriptyline",
+                    "Hydromorphine",
+                    "Oxycodone",
+                    "Pentazocine",
+                    "Sufentanil",
+                    "Nalbuphine",
+                    "Anileridine",
+                    "Ketamine",
+                    "Diamorphine",
+                    "Tapentadol",
+                    "Alvimopan",
+                    "Methylnaltrexone",
+                    "Cannabidiol",
+                    "Opium",
+                    "Pentoxyverine",
+                    "Naldemedine"
+                  ]
+                },
+                {
+                  "name": "OPRL1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "Neurotensin",
+              "children": [
+                {
+                  "name": "NTSR1",
                   "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
-                  "name": "F2RL2      (PAR3)",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "F2RL3   (PAR4)",
+                  "name": "NTSR2",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
                   "drugList": []
@@ -559,84 +1059,34 @@ const dataClassA ={
               ]
             },
             {
-              "name": "Somatostatin",
+              "name": "Neuropeptide Y",
               "children": [
                 {
-                  "name": "SSTR1",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 4,
-                  "drugList": [
-                    "Pasireotide",
-                    "Lutetium Lu 177 dotatate",
-                    "Gallium 68 DOTATOC"
-                  ]
-                },
-                {
-                  "name": "SSTR2",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 6,
-                  "drugList": [
-                    "Vapreotide",
-                    "Pasireotide",
-                    "Lanreotide",
-                    "Lutetium Lu 177 dotatate",
-                    "Gallium 68 DOTATOC"
-                  ]
-                },
-                {
-                  "name": "SSTR3",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 2,
-                  "drugList": [
-                    "Gallium 68 DOTATOC"
-                  ]
-                },
-                {
-                  "name": "SSTR4",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 2,
-                  "drugList": [
-                    "Octreotide"
-                  ]
-                },
-                {
-                  "name": "SSTR5",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 6,
-                  "drugList": [
-                    "Vapreotide",
-                    "Pasireotide",
-                    "Lanreotide",
-                    "Lutetium Lu 177 dotatate",
-                    "Gallium 68 DOTATOC"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Tachykinin",
-              "children": [
-                {
-                  "name": "NK1R (TACR1)",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 7,
-                  "drugList": [
-                    "Palonestron",
-                    "Aprepitant",
-                    "Fosaprepitant",
-                    "Netupitant",
-                    "Rolapitant",
-                    "Ketamine"
-                  ]
-                },
-                {
-                  "name": "NK2R    (TACR2)",
+                  "name": "NPY1R",
                   "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
-                  "name": "NK3R   (TACR3)",
+                  "name": "NPY2R",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "NPY4R",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "NPY5R",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "NPY6R",
                   "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
@@ -644,57 +1094,139 @@ const dataClassA ={
               ]
             },
             {
-              "name": "Vasopressin/Oxytocin",
+              "name": "Neuropeptide W/B",
               "children": [
                 {
-                  "name": "V1AR (AVPR1A)",
+                  "name": "NPBWR1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "NPBWR2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "Angiotensin",
+              "children": [
+                {
+                  "name": "AGTR1",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 8,
+                  "numberOfApprovedDrugs": 13,
                   "drugList": [
-                    "Vasopressin",
-                    "Felypressin",
-                    "Conivaptan",
-                    "Terlipressin",
-                    "Tolvaptan",
-                    "Atosiban",
-                    "Lypressin"
+                    "Olmesartan",
+                    "Losartan",
+                    "Candesartan",
+                    "Eprosartan",
+                    "Telmisartan",
+                    "Irbesartan",
+                    "Tasosartan",
+                    "Azilsartan medoxomil",
+                    "Fimasartan",
+                    "Saprisartan",
+                    "Forasartan ",
+                    "Angiotensin II"
                   ]
                 },
                 {
-                  "name": "V1BR (AVPR1B) ",
+                  "name": "AGTR2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "Relaxin family",
+              "children": [
+                {
+                  "name": "RXFP1",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 5,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "RXFP2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "RXFP3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "RXFP4",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "Orexin",
+              "children": [
+                {
+                  "name": "HCRTR1 (OX1R)",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 2,
                   "drugList": [
-                    "Desmopressin",
-                    "Vasopressin",
-                    "Terlipressin",
-                    "Atosiban"
+                    "Lemborexant"
                   ]
                 },
                 {
-                  "name": "V2R (AVPR2) ",
+                  "name": "HCRTR2 (OX2R)",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 8,
+                  "numberOfApprovedDrugs": 2,
                   "drugList": [
-                    "Vasopressin",
-                    "Conivaptan",
-                    "Terlipressin",
-                    "Tolvaptan",
-                    "Demeclocycline",
-                    "Atosiban",
-                    "Lypressin"
+                    "Lemborexant"
                   ]
+                }
+              ]
+            },
+            {
+              "name": "Galanin",
+              "children": [
+                {
+                  "name": "GALR1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
                 },
                 {
-                  "name": "OXTR",
+                  "name": "GALR2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "GALR3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "Melanin-conc.",
+              "children": [
+                {
+                  "name": "MCHR1",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 5,
-                  "drugList": [
-                    "Carbetocin",
-                    "Atosiban",
-                    "Desmopressin",
-                    "Vasopressin"
-                  ]
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "MCHR2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
                 }
               ]
             },
@@ -929,68 +1461,31 @@ const dataClassA ={
               ]
             },
             {
-              "name": "Neuropeptide W/B",
+              "name": "Proteinase-activated",
               "children": [
                 {
-                  "name": "NPBWR1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "NPBWR2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "Neuropeptide Y",
-              "children": [
-                {
-                  "name": "NPY1R",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "NPY2R",
+                  "name": "F2R         (PAR1)",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "numberOfApprovedDrugs": 3,
+                  "drugList": [
+                    "Thrombin",
+                    "Streptokinase"
+                  ]
                 },
                 {
-                  "name": "NPY4R",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 1,
-                  "drugList": []
-                },
-                {
-                  "name": "NPY5R",
+                  "name": "F2RL1       (PAR2)",
                   "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
-                  "name": "NPY6R",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "Neurotensin",
-              "children": [
-                {
-                  "name": "NTSR1",
+                  "name": "F2RL2      (PAR3)",
                   "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
-                  "name": "NTSR2",
+                  "name": "F2RL3   (PAR4)",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
                   "drugList": []
@@ -998,254 +1493,84 @@ const dataClassA ={
               ]
             },
             {
-              "name": "Opioid",
+              "name": "Somatostatin",
               "children": [
                 {
-                  "name": "OPRD1",
+                  "name": "SSTR1",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 40,
+                  "numberOfApprovedDrugs": 4,
                   "drugList": [
-                    "Codeine",
-                    "Hydromorphone",
-                    "Methadone",
-                    "Oxycodone",
-                    "Butorphanol",
-                    "Dextropropoxyphene",
-                    "Naltrexone",
-                    "Fentanyl",
-                    "Loperamide",
-                    "Nalbuphine",
-                    "Hydrocodone",
-                    "Naloxone",
-                    "Eluxadoline",
-                    "Naldemedine",
-                    "Tramadol",
-                    "Levorphanol",
-                    "Diphenoxylate",
-                    "Ketamin",
-                    "Cannabidiol",
-                    "Dextromethorphan",
-                    "Aripiprazole",
-                    "Diamorphine",
-                    "Nalmefene",
-                    "Pholcodine",
-                    "Amitriptyline",
-                    "Sulfentanil",
-                    "Remifentanil",
-                    "Buprenorphine",
-                    "Oxymorphone",
-                    "Tapentadol",
-                    "Avimopan",
-                    "Opium",
-                    "Dicumarol",
-                    "Tubocurarine",
-                    "Mephenytoin",
-                    "Diphenhydramine",
-                    "Methylergonovine",
-                    "Trimethadione"
+                    "Pasireotide",
+                    "Lutetium Lu 177 dotatate",
+                    "Gallium 68 DOTATOC"
                   ]
                 },
                 {
-                  "name": "OPRK1",
+                  "name": "SSTR2",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 39,
+                  "numberOfApprovedDrugs": 6,
                   "drugList": [
-                    "Codeine",
-                    "Hydromorphone",
-                    "Progesterone",
-                    "Dextromethorphan",
-                    "Lamotrigine",
-                    "Levorphanol",
-                    "Naloxone",
-                    "Alvimopan",
-                    "Methylnaltrexone",
-                    "Pentoxyverine",
-                    "Mirtazapine",
-                    "Meperidine",
-                    "Butorphanol",
-                    "Pentazocine",
-                    "Naltrexone",
-                    "Sufentanil",
-                    "Fentanyl",
-                    "Levomenthol",
-                    "Loperamide",
-                    "Remifentanil",
-                    "Aripiprazole",
-                    "Diamorphine",
-                    "Tapentadol",
-                    "Nalmefene",
-                    "Pholcodine",
-                    "Eluxadoline",
-                    "Tramadol",
-                    "Atomoxetine",
-                    "Amitriptyline",
-                    "Oxycodone",
-                    "Dextropropoxyphene",
-                    "Nalbuphine",
-                    "Buprenorphine",
-                    "Dezocine",
-                    "Ketamine",
-                    "Mianserin",
-                    "Opium",
-                    "Naldemedine"
+                    "Vapreotide",
+                    "Pasireotide",
+                    "Lanreotide",
+                    "Lutetium Lu 177 dotatate",
+                    "Gallium 68 DOTATOC"
                   ]
                 },
                 {
-                  "name": "OPRM1",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 45,
-                  "drugList": [
-                    "Dextromethorphan",
-                    "Alfentanil",
-                    "Loperamide",
-                    "Hydrocodone",
-                    "Naloxone",
-                    "Levacetylmethadol",
-                    "Aripiprazole",
-                    "Morphine",
-                    "Methadone",
-                    "Levallorphan",
-                    "Butorphanol",
-                    "Dextropropoxyphene",
-                    "Naltrexone",
-                    "Fentanyl",
-                    "Levorphanol",
-                    "Remifentanil",
-                    "Ondansetron",
-                    "Buprenorphine",
-                    "Diphenoxylate",
-                    "Oxymorphone",
-                    "Dezocine",
-                    "Nalmefene",
-                    "Naloxegol",
-                    "Trimebutine",
-                    "Pholcodine",
-                    "Eluxadoline",
-                    "Tramadol",
-                    "Codeine",
-                    "Amitriptyline",
-                    "Hydromorphine",
-                    "Oxycodone",
-                    "Pentazocine",
-                    "Sufentanil",
-                    "Nalbuphine",
-                    "Anileridine",
-                    "Ketamine",
-                    "Diamorphine",
-                    "Tapentadol",
-                    "Alvimopan",
-                    "Methylnaltrexone",
-                    "Cannabidiol",
-                    "Opium",
-                    "Pentoxyverine",
-                    "Naldemedine"
-                  ]
-                },
-                {
-                  "name": "OPRL1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "Angiotensin",
-              "children": [
-                {
-                  "name": "AGTR1",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 13,
-                  "drugList": [
-                    "Olmesartan",
-                    "Losartan",
-                    "Candesartan",
-                    "Eprosartan",
-                    "Telmisartan",
-                    "Irbesartan",
-                    "Tasosartan",
-                    "Azilsartan medoxomil",
-                    "Fimasartan",
-                    "Saprisartan",
-                    "Forasartan ",
-                    "Angiotensin II"
-                  ]
-                },
-                {
-                  "name": "AGTR2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "Relaxin family",
-              "children": [
-                {
-                  "name": "RXFP1",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 1,
-                  "drugList": []
-                },
-                {
-                  "name": "RXFP2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "RXFP3",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "RXFP4",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "Orexin",
-              "children": [
-                {
-                  "name": "HCRTR1 (OX1R)",
+                  "name": "SSTR3",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
-                    "Lemborexant"
+                    "Gallium 68 DOTATOC"
                   ]
                 },
                 {
-                  "name": "HCRTR2 (OX2R)",
+                  "name": "SSTR4",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
-                    "Lemborexant"
+                    "Octreotide"
+                  ]
+                },
+                {
+                  "name": "SSTR5",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 6,
+                  "drugList": [
+                    "Vapreotide",
+                    "Pasireotide",
+                    "Lanreotide",
+                    "Lutetium Lu 177 dotatate",
+                    "Gallium 68 DOTATOC"
                   ]
                 }
               ]
             },
             {
-              "name": "Galanin",
+              "name": "Tachykinin",
               "children": [
                 {
-                  "name": "GALR1",
+                  "name": "NK1R (TACR1)",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 7,
+                  "drugList": [
+                    "Palonestron",
+                    "Aprepitant",
+                    "Fosaprepitant",
+                    "Netupitant",
+                    "Rolapitant",
+                    "Ketamine"
+                  ]
+                },
+                {
+                  "name": "NK2R    (TACR2)",
                   "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
-                  "name": "GALR2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "GALR3",
+                  "name": "NK3R   (TACR3)",
                   "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
@@ -1253,19 +1578,57 @@ const dataClassA ={
               ]
             },
             {
-              "name": "Melanin-conc.",
+              "name": "Vasopressin/Oxytocin",
               "children": [
                 {
-                  "name": "MCHR1",
+                  "name": "V1AR (AVPR1A)",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "numberOfApprovedDrugs": 8,
+                  "drugList": [
+                    "Vasopressin",
+                    "Felypressin",
+                    "Conivaptan",
+                    "Terlipressin",
+                    "Tolvaptan",
+                    "Atosiban",
+                    "Lypressin"
+                  ]
                 },
                 {
-                  "name": "MCHR2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
+                  "name": "V1BR (AVPR1B) ",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 5,
+                  "drugList": [
+                    "Desmopressin",
+                    "Vasopressin",
+                    "Terlipressin",
+                    "Atosiban"
+                  ]
+                },
+                {
+                  "name": "V2R (AVPR2) ",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 8,
+                  "drugList": [
+                    "Vasopressin",
+                    "Conivaptan",
+                    "Terlipressin",
+                    "Tolvaptan",
+                    "Demeclocycline",
+                    "Atosiban",
+                    "Lypressin"
+                  ]
+                },
+                {
+                  "name": "OXTR",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 5,
+                  "drugList": [
+                    "Carbetocin",
+                    "Atosiban",
+                    "Desmopressin",
+                    "Vasopressin"
+                  ]
                 }
               ]
             }
@@ -3429,42 +3792,99 @@ const dataClassA ={
               ]
             },
             {
-              "name": "Lysophospholipid (S1P)",
+              "name": "Leukotriene ",
               "children": [
                 {
-                  "name": "S1PR1",
+                  "name": "LTB4R",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "LTB4R2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "OXER1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "CYSLTR1",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 4,
+                  "numberOfApprovedDrugs": 3,
                   "drugList": [
-                    "Asfotase alfa",
-                    "Siponimod",
-                    "Ozanimod"
+                    "Zafirlukast",
+                    "Nedocromil"
                   ]
                 },
                 {
-                  "name": "S1PR2",
+                  "name": "CYSLTR2",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "Free fatty acid ",
+              "children": [
+                {
+                  "name": "FFAR1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
                   "drugList": []
                 },
                 {
-                  "name": "S1PR3",
+                  "name": "FFAR2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "FFAR3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "FFAR4",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
                   "drugList": []
                 },
                 {
-                  "name": "S1PR4",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 1,
+                  "name": "GPR42",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
                   "drugList": []
-                },
+                }
+              ]
+            },
+            {
+              "name": "Cannabinoid",
+              "children": [
                 {
-                  "name": "S1PR5",
+                  "name": "CNR1",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 2,
+                  "numberOfApprovedDrugs": 4,
                   "drugList": [
-                    "Fingolimod"
+                    "Nabilone",
+                    "Rimonabant",
+                    "Cannabidiol"
+                  ]
+                },
+                {
+                  "name": "CNR2",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 4,
+                  "drugList": [
+                    "Nabilone",
+                    "Lasofoxifene",
+                    "Cannabidiol"
                   ]
                 }
               ]
@@ -3511,59 +3931,119 @@ const dataClassA ={
               ]
             },
             {
-              "name": "Cannabinoid",
+              "name": "Lysophospholipid (S1P)",
               "children": [
                 {
-                  "name": "CNR1",
+                  "name": "S1PR1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
-                    "Nabilone",
-                    "Rimonabant",
-                    "Cannabidiol"
+                    "Asfotase alfa",
+                    "Siponimod",
+                    "Ozanimod"
                   ]
                 },
                 {
-                  "name": "CNR2",
-                  "isDruggable": true,
-                  "numberOfApprovedDrugs": 4,
-                  "drugList": [
-                    "Nabilone",
-                    "Lasofoxifene",
-                    "Cannabidiol"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Free fatty acid ",
-              "children": [
-                {
-                  "name": "FFAR1",
+                  "name": "S1PR2",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
                   "drugList": []
                 },
                 {
-                  "name": "FFAR2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "FFAR3",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "FFAR4",
+                  "name": "S1PR3",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
                   "drugList": []
                 },
                 {
-                  "name": "GPR42",
+                  "name": "S1PR4",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                },
+                {
+                  "name": "S1PR5",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 2,
+                  "drugList": [
+                    "Fingolimod"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sensory",
+          "children": [
+            {
+              "name": "Opsins",
+              "children": [
+                {
+                  "name": "OPSR",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "OPSG",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "OPSB",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "OPSD",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "OPN3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "OPN4",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "OPN5",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alicarboxylic acid",
+          "children": [
+            {
+              "name": "Succinate",
+              "children": [
+                {
+                  "name": "SUCNR1",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "Oxoglutarate",
+              "children": [
+                {
+                  "name": "OXGR1",
                   "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
@@ -3571,40 +4051,100 @@ const dataClassA ={
               ]
             },
             {
-              "name": "Leukotriene ",
+              "name": "Hydroxycarboxylic acid",
               "children": [
                 {
-                  "name": "LTB4R",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
+                  "name": "HCAR1",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 1,
                   "drugList": []
                 },
                 {
-                  "name": "LTB4R2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
+                  "name": "HCAR2",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 4,
+                  "drugList": [
+                    "Niacin",
+                    "Clotrimazole",
+                    "Acimpox"
+                  ]
                 },
                 {
-                  "name": "OXER1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
+                  "name": "HCAR3",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 2,
+                  "drugList": [
+                    "Niacin"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Steroid",
+          "children": [
+            {
+              "name": "Estrogen",
+              "children": [
                 {
-                  "name": "CYSLTR1",
+                  "name": "GPER1",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 9,
+                  "drugList": [
+                    "Estradiol dienanthate",
+                    "Estradiol cypionate",
+                    "Estradiol valerate",
+                    "Estradiol acetate",
+                    "Estradiol benzoate",
+                    "Fulvestrant",
+                    "Raloxifene",
+                    "Tamoxifen"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bile acid",
+              "children": [
+                {
+                  "name": "GPBAR1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
-                    "Zafirlukast",
-                    "Nedocromil"
+                    "Deoxycholic Acid",
+                    "Chenodeoxycholic acid"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Melatonin",
+          "children": [
+            {
+              "name": "Melatonin",
+              "children": [
+                {
+                  "name": "MTNR1A",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 4,
+                  "drugList": [
+                    "Melatonin",
+                    "Agomelatine",
+                    "Tasimelteon"
                   ]
                 },
                 {
-                  "name": "CYSLTR2",
+                  "name": "MTNR1B",
                   "isDruggable": true,
-                  "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "numberOfApprovedDrugs": 4,
+                  "drugList": [
+                    "Melatonin",
+                    "Agomelatine",
+                    "Tasimelteon"
+                  ]
                 }
               ]
             }
@@ -3615,6 +4155,243 @@ const dataClassA ={
     {
       "name": "Class B",
       "children": [
+        {
+          "name": "Adhesion",
+          "children": [
+            {
+              "name": "ADGRE",
+              "children": [
+                {
+                  "name": "ADGRE1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRE2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRE3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRE4",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRE5 (CD97)",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "ADGRL",
+              "children": [
+                {
+                  "name": "ADGRL1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRL2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRL3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRL4",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "ADGRC",
+              "children": [
+                {
+                  "name": "CELSR1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "CELSR2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "CELSR3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "ADGRA",
+              "children": [
+                {
+                  "name": "ADGRA1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRA2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRA3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "ADGRG",
+              "children": [
+                {
+                  "name": "ADGRG1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRG1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRG3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRG4",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRG5",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRG6",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRG7",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "ADGRB",
+              "children": [
+                {
+                  "name": "ADGRB1 (BAI1)",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRB2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRB3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "ADGRD",
+              "children": [
+                {
+                  "name": "ADGRD1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRD2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            },
+            {
+              "name": "ADGRF",
+              "children": [
+                {
+                  "name": "ADGRF1",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRF2",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRF3",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRF4",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                },
+                {
+                  "name": "ADGRF5",
+                  "isDruggable": false,
+                  "numberOfApprovedDrugs": 0,
+                  "drugList": []
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "Peptide ",
           "children": [
@@ -3757,243 +4534,6 @@ const dataClassA ={
                 },
                 {
                   "name": "VIPR2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Adhesion",
-          "children": [
-            {
-              "name": "ADGRG",
-              "children": [
-                {
-                  "name": "ADGRG1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRG1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRG3",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRG4",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRG5",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRG6",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRG7",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "ADGRB",
-              "children": [
-                {
-                  "name": "ADGRB1 (BAI1)",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRB2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRB3",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "ADGRD",
-              "children": [
-                {
-                  "name": "ADGRD1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRD2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "ADGRF",
-              "children": [
-                {
-                  "name": "ADGRF1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRF2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRF3",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRF4",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRF5",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "ADGRE",
-              "children": [
-                {
-                  "name": "ADGRE1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRE2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRE3",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRE4",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRE5 (CD97)",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "ADGRL",
-              "children": [
-                {
-                  "name": "ADGRL1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRL2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRL3",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRL4",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "ADGRC",
-              "children": [
-                {
-                  "name": "CELSR1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "CELSR2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "CELSR3",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                }
-              ]
-            },
-            {
-              "name": "ADGRA",
-              "children": [
-                {
-                  "name": "ADGRA1",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRA2",
-                  "isDruggable": false,
-                  "numberOfApprovedDrugs": 0,
-                  "drugList": []
-                },
-                {
-                  "name": "ADGRA3",
                   "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
@@ -4175,6 +4715,30 @@ const dataClassA ={
                   "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ion",
+          "children": [
+            {
+              "name": "Calcium-sensing ",
+              "children": [
+                {
+                  "name": "CASR",
+                  "isDruggable": true,
+                  "numberOfApprovedDrugs": 8,
+                  "drugList": [
+                    "Neomycin",
+                    "Cinacalcet",
+                    "Calcium Phosphate",
+                    "Calcium citrate",
+                    "Etelcalcetide",
+                    "Calcium phosphate dihydrate",
+                    "Bevacizumab"
+                  ]
                 }
               ]
             }
