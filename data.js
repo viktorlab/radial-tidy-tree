@@ -1,4 +1,4 @@
-export const dataClassA = {
+export const data = {
   name: '#',
   children: [
     {
