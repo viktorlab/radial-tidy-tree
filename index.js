@@ -1,4 +1,4 @@
-import { dataClassA } from './data';
+import { data } from './data';
 
 const diameter = 1600;
 
@@ -25,7 +25,7 @@ const svg = d3
   .append('g')
   .attr('transform', 'translate(' + diameter / 2 + ',' + diameter / 2 + ')');
 
-root = dataClassA;
+root = data;
 root.x0 = height / 2;
 root.y0 = 0;
 
