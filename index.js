@@ -46,7 +46,7 @@ function update(source) {
   });
 
   // Enter any new nodes at the parent's previous position.
-  const nodeEnter = node.enter().append('g').attr('class', 'node').on('click', click);
+  const nodeEnter = node.enter().append('g').attr('class', 'node').on('click', handleClick);
 
   nodeEnter
     .append('circle')
@@ -70,7 +70,12 @@ function update(source) {
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => (d._children ? 'lightsteelblue' : '#fff'));
+    .style('fill', (d) => (d.children ? 'lightsteelblue' : '#fff'));
+
+  nodeUpdate
+    .select('circle')
+    .attr('r', 4.5)
+    .style('fill', (d) => (d.isDruggable ? 'red' : '#fff'));
 
   nodeUpdate
     .select('text')
@@ -118,7 +123,7 @@ function update(source) {
 }
 
 // Toggle children on click.
-function click(d) {
+function handleClick(d) {
   if (d.children) {
     d._children = d.children;
     d.children = null;
