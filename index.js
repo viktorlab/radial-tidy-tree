@@ -1,3 +1,5 @@
+import { dataClassA } from './data';
+
 const diameter = 1600;
 
 const margin = { top: 20, right: 120, bottom: 20, left: 120 };

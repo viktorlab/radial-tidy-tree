@@ -1,0 +1,16 @@
+{
+  "name": "d3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/viktorlab/radial-tidy-tree.git",
+  "author": "Viktor Labroski",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf dist/*"
+  }
+}
