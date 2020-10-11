@@ -9,7 +9,7 @@ const height = diameter;
 let i = 0;
 let duration = 350;
 let root;
-
+let colormap = { 'Class A': '#720899', 'Class B': 'green', 'Class C': 'blue', 'Class F': '#089988' }
 const tree = d3.layout
   .tree()
   .size([360, diameter / 2 - 80])
@@ -84,7 +84,11 @@ function update(source) {
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => (d.isDruggable ? '#660066' : '#fff'));
+    .style('fill', (d) => {
+      let color = d.type == undefined ? 
+     colormap[d.parent.parent.parent.name] : '#fff'
+      return (d.isDruggable ? color : '#fff')
+    });
 
   nodeUpdate
     .select('text')
