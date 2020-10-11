@@ -80,15 +80,11 @@ function update(source) {
     .attr('r', 4.5)
     .style('fill', (d) =>
       (d.children ? 'lightsteelblue' : '#fff'));
-
+ 
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => {
-      let color = d.type == undefined ? 
-     colormap[d.parent.parent.parent.name] : '#fff'
-      return (d.isDruggable ? color : '#fff')
-    });
+    .style('fill', (d) => (d.type == undefined && d.isDruggable ?  colormap[d.parent.parent.parent.name] : '#fff'));
 
   nodeUpdate
     .select('text')
