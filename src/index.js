@@ -57,7 +57,13 @@ function update(source) {
 
   nodeEnter
     .append('text')
-    .attr('x', 10)
+    .attr('x', (d) => {
+      if (d.type != undefined) {
+        return d.x > 180 ? -(d.name.length / 3) * 5 : 10
+      } else {
+        return d.x > 180 ? -(d.name.length / 3) * 5 : 20
+      }
+    })
     .attr('dy', '.35em')
     .attr('text-anchor', 'start')
     .text((d) => d.name)
@@ -72,7 +78,8 @@ function update(source) {
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => (d.children ? 'lightsteelblue' : '#fff'));
+    .style('fill', (d) =>
+      (d.children ? 'lightsteelblue' : '#fff'));
 
   nodeUpdate
     .select('circle')
