@@ -1,6 +1,5 @@
 export const data = {
   "name": "",
-  "type": "root",
   "children": [
     {
       "name": "Class A",
@@ -18,19 +17,25 @@ export const data = {
                   "name": "P2RY8",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 },
                 {
                   "name": "P2RY10",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 },
                 {
                   "name": "MRGPRX1 (MRGX1)",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Chloroquine"
+                  ]
                 },
                 {
                   "name": "MRGX2",
@@ -138,7 +143,9 @@ export const data = {
                   "name": "GPR12",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Cannabidiol"
+                  ]
                 },
                 {
                   "name": "GPR15",
@@ -223,6 +230,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Furosemide",
                     "Pyrantel",
                     "Bumetanide"
                   ]
@@ -285,7 +293,9 @@ export const data = {
                   "name": "GPR68     (OGR1)",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Lorazepam"
+                  ]
                 },
                 {
                   "name": "GPR75",
@@ -295,25 +305,25 @@ export const data = {
                 },
                 {
                   "name": " ",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": " ",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": " ",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": " ",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
@@ -375,7 +385,9 @@ export const data = {
                   "name": "GPR143",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Levodopa"
+                  ]
                 },
                 {
                   "name": "GPR146",
@@ -508,6 +520,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 8,
                   "drugList": [
+                    "Ticlopidine",
                     "Epoprostenol",
                     "Clopidogrel",
                     "Cangrelor",
@@ -521,50 +534,64 @@ export const data = {
                   "name": "P2RX1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 },
                 {
                   "name": "P2RX2",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 },
                 {
                   "name": "P2RX3",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 },
                 {
                   "name": "P2RX4",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 },
                 {
                   "name": "P2RX5",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 },
                 {
                   "name": "P2RX6",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 },
                 {
                   "name": "P2RX7",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 },
                 {
                   "name": "P2RY1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
                   "drugList": [
-                    "Suramin"
+                    "Promethazine"
                   ]
                 },
                 {
@@ -572,6 +599,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Promethazine",
                     "Suramin"
                   ]
                 },
@@ -579,19 +607,24 @@ export const data = {
                   "name": "P2RY4",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 },
                 {
                   "name": "P2RY6",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Suramin"
+                  ]
                 },
                 {
                   "name": "P2RY11",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Promethazine",
                     "Suramin"
                   ]
                 },
@@ -600,6 +633,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Promethazine",
                     "Cangrelor",
                     "Suramin"
                   ]
@@ -608,7 +642,9 @@ export const data = {
                   "name": "P2RY14",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Promethazine"
+                  ]
                 }
               ]
             },
@@ -621,6 +657,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 14,
                   "drugList": [
+                    "Enprofylline",
                     "Defibrotide",
                     "Istradefylline",
                     "Tramadol",
@@ -641,6 +678,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 12,
                   "drugList": [
+                    "Caffeine",
                     "Regadenoson",
                     "Theophylline",
                     "Mefloquine",
@@ -659,6 +697,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 5,
                   "drugList": [
+                    "Theophylline",
                     "Caffeine",
                     "Adenosine",
                     "Defibrotide",
@@ -670,6 +709,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 5,
                   "drugList": [
+                    "Caffeine",
                     "Enprofylline",
                     "Aminophylline",
                     "Adenosine",
@@ -711,6 +751,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Mogamulizumab",
                     "Plerixafor"
                   ]
                 },
@@ -719,6 +760,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Maraviroc",
                     "Ibalizumab"
                   ]
                 },
@@ -756,7 +798,9 @@ export const data = {
                   "name": "CXCR1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Ketoprofen"
+                  ]
                 },
                 {
                   "name": "CXCR2",
@@ -775,6 +819,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Plerixafor",
                     "Mogamulizumab",
                     "Framycetin",
                     "Ibalizumab"
@@ -814,7 +859,9 @@ export const data = {
                   "name": "ACKR3",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Plerixafor"
+                  ]
                 },
                 {
                   "name": "ACKR4",
@@ -845,12 +892,11 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 5,
                   "drugList": [
+                    "Menotropins",
                     "Follitropin",
                     "Urofollitropin",
                     "Choriogonadotropin alfa",
-                    "Corifollitropin alfa",
-                    "Digoxin",
-                    "Loxapine"
+                    "Corifollitropin alfa"
                   ]
                 },
                 {
@@ -858,6 +904,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 7,
                   "drugList": [
+                    "Goserelin",
                     "Menotropins",
                     "Lutropin alfa",
                     "Cetrorelix",
@@ -871,6 +918,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Thyrotropin Alfa",
                     "Ergoloid",
                     "THS"
                   ]
@@ -910,6 +958,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 40,
                   "drugList": [
+                    "Morphine",
                     "Codeine",
                     "Hydromorphone",
                     "Methadone",
@@ -955,6 +1004,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 39,
                   "drugList": [
+                    "Morphine",
                     "Codeine",
                     "Hydromorphone",
                     "Progesterone",
@@ -1000,6 +1050,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 45,
                   "drugList": [
+                    "Meperidine",
                     "Dextromethorphan",
                     "Alfentanil",
                     "Loperamide",
@@ -1068,7 +1119,9 @@ export const data = {
                   "name": "NTSR2",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Levocabastine"
+                  ]
                 }
               ]
             },
@@ -1086,13 +1139,17 @@ export const data = {
                   "name": "NPY2R",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Cysteamine"
+                  ]
                 },
                 {
                   "name": "NPY4R",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Niclosamide"
+                  ]
                 },
                 {
                   "name": "NPY5R",
@@ -1135,6 +1192,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 13,
                   "drugList": [
+                    "Valsartan",
                     "Olmesartan",
                     "Losartan",
                     "Candesartan",
@@ -1165,7 +1223,9 @@ export const data = {
                   "name": "RXFP1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Serelaxin"
+                  ]
                 },
                 {
                   "name": "RXFP2",
@@ -1196,6 +1256,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Suvorexant",
                     "Lemborexant"
                   ]
                 },
@@ -1204,6 +1265,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Suvorexant",
                     "Lemborexant"
                   ]
                 }
@@ -1241,7 +1303,9 @@ export const data = {
                   "name": "MCHR1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Haloperidol"
+                  ]
                 },
                 {
                   "name": "MCHR2",
@@ -1260,6 +1324,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Afamelanotide",
                     "ACTH"
                   ]
                 },
@@ -1268,6 +1333,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 7,
                   "drugList": [
+                    "Corticotropin zinc hydroxide",
                     "Cosyntropin",
                     "Corticotropin",
                     "Tetracosacitide",
@@ -1281,6 +1347,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Bremelanotide",
                     "ACTH"
                   ]
                 },
@@ -1289,6 +1356,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Bremelanotide",
                     "ACTH"
                   ]
                 },
@@ -1297,6 +1365,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Bremelanotide",
                     "ACTH"
                   ]
                 }
@@ -1371,6 +1440,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Ceruletide",
                     "Cholecystokinin"
                   ]
                 },
@@ -1379,6 +1449,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Cholecystokinin",
                     "Pentagastrin"
                   ]
                 }
@@ -1417,6 +1488,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 5,
                   "drugList": [
+                    "Macitentan",
                     "Acetylsalicylic acid",
                     "Sitaxentan",
                     "Ambrisentan",
@@ -1428,6 +1500,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Macitentan",
                     "Ambrisentan",
                     "Sitaxentan",
                     "Bosentan "
@@ -1444,6 +1517,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 5,
                   "drugList": [
+                    "Nedocromil ",
                     "Chenodeoxycholic acid",
                     "Deoxycholic acid",
                     "Cyclosporin A",
@@ -1473,6 +1547,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 8,
                   "drugList": [
+                    "Icatibant",
                     "Ramipril",
                     "Captopril",
                     "Zinc",
@@ -1486,7 +1561,9 @@ export const data = {
                   "name": "BDKRB2",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Icatibant"
+                  ]
                 }
               ]
             },
@@ -1499,6 +1576,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Vorapaxar",
                     "Thrombin",
                     "Streptokinase"
                   ]
@@ -1519,7 +1597,9 @@ export const data = {
                   "name": "F2RL3   (PAR4)",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Thrombin"
+                  ]
                 }
               ]
             },
@@ -1532,6 +1612,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Octreotide",
                     "Pasireotide",
                     "Lutetium Lu 177 dotatate",
                     "Gallium 68 DOTATOC"
@@ -1542,6 +1623,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 6,
                   "drugList": [
+                    "Octreotide",
                     "Vapreotide",
                     "Pasireotide",
                     "Lanreotide",
@@ -1554,6 +1636,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Pasireotide",
                     "Gallium 68 DOTATOC"
                   ]
                 },
@@ -1562,6 +1645,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Lutetium Lu 177 dotatate",
                     "Octreotide"
                   ]
                 },
@@ -1570,6 +1654,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 6,
                   "drugList": [
+                    "Octreotide",
                     "Vapreotide",
                     "Pasireotide",
                     "Lanreotide",
@@ -1588,6 +1673,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 7,
                   "drugList": [
+                    "Fosnetupitant ",
                     "Palonestron",
                     "Aprepitant",
                     "Fosaprepitant",
@@ -1619,6 +1705,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 8,
                   "drugList": [
+                    "Desmopressin",
                     "Vasopressin",
                     "Felypressin",
                     "Conivaptan",
@@ -1633,6 +1720,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 5,
                   "drugList": [
+                    "Lypressin",
                     "Desmopressin",
                     "Vasopressin",
                     "Terlipressin",
@@ -1644,6 +1732,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 8,
                   "drugList": [
+                    "Desmopressin",
                     "Vasopressin",
                     "Conivaptan",
                     "Terlipressin",
@@ -1658,6 +1747,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 5,
                   "drugList": [
+                    "Oxytocin",
                     "Carbetocin",
                     "Atosiban",
                     "Desmopressin",
@@ -1681,6 +1771,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 66,
                   "drugList": [
+                    "Eletriptan ",
                     "Ziprasidone",
                     "Methysergide",
                     "Chlorpromazine",
@@ -1740,7 +1831,8 @@ export const data = {
                     "Olanzapine",
                     "Ketamine",
                     "Chlorprothixene",
-                    "Dihydroergocornine"
+                    "Dihydroergocornine",
+                    ""
                   ]
                 },
                 {
@@ -1748,6 +1840,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 39,
                   "drugList": [
+                    "Methylsergide",
                     "Cabergoline",
                     "Clozapine",
                     "Amoxapine",
@@ -1793,6 +1886,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 35,
                   "drugList": [
+                    "Cabergoline",
                     "Clozapine",
                     "Trimipramine",
                     "Risperidone",
@@ -1834,6 +1928,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 18,
                   "drugList": [
+                    "Eletriptan ",
                     "Ziprasidone",
                     "Methysergide",
                     "Zomitriptan",
@@ -1858,6 +1953,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 18,
                   "drugList": [
+                    "Methylsergide",
                     "Rizatriptan",
                     "Lasmiditan",
                     "Eletriptan",
@@ -1882,6 +1978,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 79,
                   "drugList": [
+                    "Zolmitriptan",
                     "Olanzapine",
                     "Clozapine",
                     "Loxapine",
@@ -1967,6 +2064,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 34,
                   "drugList": [
+                    "Amoxapine",
                     "Fenfluramine",
                     "Lisuride",
                     "Cyclobenzaprine",
@@ -2007,6 +2105,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 60,
                   "drugList": [
+                    "Tramadol",
                     "Promazine",
                     "Imipramine",
                     "Chlorpromazine",
@@ -2073,6 +2172,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 37,
                   "drugList": [
+                    "Methadone",
                     "Olanzapine",
                     "Palonosetron",
                     "Amoxapine",
@@ -2116,6 +2216,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 10,
                   "drugList": [
+                    "Ethanol",
                     "Dopamine",
                     "Ziprasidone",
                     "Ergoloid mesylate",
@@ -2132,6 +2233,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 9,
                   "drugList": [
+                    "Ethanol",
                     "Ziprasidone",
                     "Ergoloid mesylate",
                     "Chlorprothixene",
@@ -2147,6 +2249,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 9,
                   "drugList": [
+                    "Ethanol",
                     "Ziprasidone",
                     "Ergoloid mesylate",
                     "Chlorprothixene",
@@ -2162,6 +2265,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 9,
                   "drugList": [
+                    "Ethanol",
                     "Ziprasidone",
                     "Ergoloid mesylate",
                     "Chlorprothixene",
@@ -2177,6 +2281,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 11,
                   "drugList": [
+                    "Prucalopride ",
                     "Ondansetron",
                     "Tegaserod",
                     "Metoclopramide",
@@ -2194,6 +2299,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 11,
                   "drugList": [
+                    "Loxapine",
                     "Asenapine",
                     "Ziprasidone",
                     "Aripiprazole",
@@ -2211,6 +2317,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 25,
                   "drugList": [
+                    "Clozapine",
                     "Imipramine",
                     "Doxepin",
                     "Quetiapine",
@@ -2242,6 +2349,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 38,
                   "drugList": [
+                    "Amitriptyline",
                     "Clozapine",
                     "Chlorpromazine",
                     "Amoxapine",
@@ -2291,6 +2399,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 93,
                   "drugList": [
+                    "Tramadol",
                     "Ziprasidone",
                     "Buclizine",
                     "Clozapine",
@@ -2390,6 +2499,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 82,
                   "drugList": [
+                    "Ziprasidone",
                     "Ipratropium",
                     "Disopyramide",
                     "Oxyphencyclimine",
@@ -2478,6 +2588,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 79,
                   "drugList": [
+                    "Ziprasidone",
                     "Ipratropium",
                     "Procyclidine",
                     "Atropine",
@@ -2563,6 +2674,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 55,
                   "drugList": [
+                    "Ziprasidone",
                     "Olanzapine",
                     "Trihexyphenidyl",
                     "Procyclidine",
@@ -2624,6 +2736,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 45,
                   "drugList": [
+                    "Clozapine",
                     "Atropine",
                     "Homatropine methylbromide",
                     "Doxepin",
@@ -2681,6 +2794,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 106,
                   "drugList": [
+                    "Norepinephrine",
                     "Promazine",
                     "Prazosin",
                     "Chlorpromazine",
@@ -2781,7 +2895,8 @@ export const data = {
                     "Ergoloid mesylate",
                     "Mephentermine",
                     "Dihydroergocornine",
-                    "DL-Methylephedrine"
+                    "DL-Methylephedrine",
+                    ""
                   ]
                 },
                 {
@@ -2789,6 +2904,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 82,
                   "drugList": [
+                    "Ziprasidone",
                     "Cabergoline",
                     "Dapiprazole",
                     "Olanzapine",
@@ -2874,6 +2990,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 65,
                   "drugList": [
+                    "Midodrine",
                     "Dapiprazole",
                     "Amitriptyline",
                     "Alfuzosin",
@@ -2933,7 +3050,8 @@ export const data = {
                     "DL-Methylephedrine",
                     "Ropinirole",
                     "Promethazine",
-                    "Dextroamphetamine"
+                    "Dextroamphetamine",
+                    ""
                   ]
                 },
                 {
@@ -2941,6 +3059,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 87,
                   "drugList": [
+                    "Amitriptyline",
                     "Norepinephrine",
                     "Brimonidine",
                     "Lamotrigine",
@@ -3025,7 +3144,8 @@ export const data = {
                     "Dextroamphetamine",
                     "Moxisylyte",
                     "Indigotindisulfonic acid",
-                    "Dihydroergocristine"
+                    "Dihydroergocristine",
+                    ""
                   ]
                 },
                 {
@@ -3033,6 +3153,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 67,
                   "drugList": [
+                    "Ziprasidone",
                     "Loxapine",
                     "Prazosin",
                     "Haloperidol",
@@ -3106,6 +3227,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 63,
                   "drugList": [
+                    "Clozapine",
                     "Loxapine",
                     "Lisuride",
                     "Apomorphine",
@@ -3175,6 +3297,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 65,
                   "drugList": [
+                    "Esmolol",
                     "Ranolazine",
                     "Cabergoline",
                     "Dobutamine",
@@ -3245,6 +3368,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 67,
                   "drugList": [
+                    "Betaxolol",
                     "Cabergoline",
                     "Metoprolol",
                     "Norepinephrine",
@@ -3318,6 +3442,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 30,
                   "drugList": [
+                    "Norepinephrine",
                     "Salmeterol",
                     "Isoprenaline",
                     "Arbutamine",
@@ -3360,6 +3485,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 60,
                   "drugList": [
+                    "Ziprasidone",
                     "Methylergometrine",
                     "Loxapine",
                     "Haloperidol",
@@ -3424,6 +3550,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 82,
                   "drugList": [
+                    "Ropinirole",
                     "Thiethylperazine",
                     "Prochlorperazine",
                     "Haloperidol",
@@ -3503,7 +3630,8 @@ export const data = {
                     "Aripiprazole lauroxil",
                     "Ergoloid mesylate",
                     "Epicriptine",
-                    "Dihydroergocristine"
+                    "Dihydroergocristine",
+                    ""
                   ]
                 },
                 {
@@ -3511,6 +3639,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 38,
                   "drugList": [
+                    "Ziprasidone",
                     "Sulpiride",
                     "Loxapine",
                     "Chlorpromazine",
@@ -3555,6 +3684,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 30,
                   "drugList": [
+                    "Ziprasidone",
                     "Cabergoline",
                     "Clozapine",
                     "Loxapine",
@@ -3591,6 +3721,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 32,
                   "drugList": [
+                    "Olanzapine",
                     "Loxapine",
                     "Lisuride",
                     "Fenoldopam",
@@ -3641,6 +3772,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 23,
                   "drugList": [
+                    "Amitriptyline",
                     "Olopatadine",
                     "Ranitidine",
                     "Famotidine",
@@ -3670,6 +3802,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 6,
                   "drugList": [
+                    "Tiprolisant",
                     "Olopatadine",
                     "Betahistine",
                     "Pitolisant",
@@ -3682,6 +3815,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 10,
                   "drugList": [
+                    "Aripiprazole",
                     "Clozapine",
                     "Loxapine",
                     "Amoxapine",
@@ -3716,6 +3850,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Glycine",
                     "Cannabidiol"
                   ]
                 },
@@ -3724,6 +3859,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Rimonabat",
                     "Cannabidiol"
                   ]
                 }
@@ -3738,6 +3874,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 6,
                   "drugList": [
+                    "Travoprost",
                     "Latanoprost",
                     "Bimatoprost",
                     "Dinoprost Tromethamine",
@@ -3750,6 +3887,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 7,
                   "drugList": [
+                    "Carboprost Tromethamine",
                     "Alprostadil",
                     "Bimatoprost",
                     "Dinoprostone",
@@ -3763,6 +3901,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Alprostadil",
                     "Dinoprostone",
                     "Misoprostol",
                     "Gemeprost"
@@ -3773,6 +3912,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 5,
                   "drugList": [
+                    "Bimatoprost",
                     "Dinoprostone",
                     "Misoprostol",
                     "Gemeprost",
@@ -3784,6 +3924,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Dinoprostone",
                     "Misoprostol",
                     "Castor oil",
                     "Treprostinil"
@@ -3794,6 +3935,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Nedocromil ",
                     "Iloprost",
                     "Treprostinil"
                   ]
@@ -3803,6 +3945,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 6,
                   "drugList": [
+                    "Indomethacin",
                     "Sulindac",
                     "Alprostadil",
                     "Dinoprostone",
@@ -3815,11 +3958,11 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 5,
                   "drugList": [
+                    "Treprostinil",
                     "Iloprost",
                     "Dinoprost Tromethamine",
                     "Epoprostenol",
-                    "Selexipag",
-                    "  "
+                    "Selexipag"
                   ]
                 },
                 {
@@ -3827,9 +3970,9 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Morniflumate",
                     "Ridogrel",
-                    "Seratrodast",
-                    "Illoprost"
+                    "Seratrodast"
                   ]
                 }
               ]
@@ -3861,6 +4004,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Monteleukast",
                     "Zafirlukast",
                     "Nedocromil"
                   ]
@@ -3869,7 +4013,9 @@ export const data = {
                   "name": "CYSLTR2",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Nedocromil "
+                  ]
                 }
               ]
             },
@@ -3881,7 +4027,9 @@ export const data = {
                   "name": "FFAR1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Icosapent"
+                  ]
                 },
                 {
                   "name": "FFAR2",
@@ -3899,7 +4047,9 @@ export const data = {
                   "name": "FFAR4",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Fish oil"
+                  ]
                 },
                 {
                   "name": "GPR42",
@@ -3918,6 +4068,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Dronabinol",
                     "Nabilone",
                     "Rimonabant",
                     "Cannabidiol"
@@ -3928,6 +4079,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Dronabinol",
                     "Nabilone",
                     "Lasofoxifene",
                     "Cannabidiol"
@@ -3941,13 +4093,13 @@ export const data = {
               "children": [
                 {
                   "name": " ",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": " ",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
@@ -3986,6 +4138,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Fingolimod",
                     "Asfotase alfa",
                     "Siponimod",
                     "Ozanimod"
@@ -3995,25 +4148,32 @@ export const data = {
                   "name": "S1PR2",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Fingolimod"
+                  ]
                 },
                 {
                   "name": "S1PR3",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Fingolimod"
+                  ]
                 },
                 {
                   "name": "S1PR4",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Fingolimod"
+                  ]
                 },
                 {
                   "name": "S1PR5",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Siponimod",
                     "Fingolimod"
                   ]
                 }
@@ -4087,7 +4247,9 @@ export const data = {
                   "name": "SUCNR1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Succinic acid"
+                  ]
                 }
               ]
             },
@@ -4111,13 +4273,16 @@ export const data = {
                   "name": "HCAR1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "γ-hydroxybutyric acid"
+                  ]
                 },
                 {
                   "name": "HCAR2",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Inositol nicotinate",
                     "Niacin",
                     "Clotrimazole",
                     "Acimpox"
@@ -4128,6 +4293,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Inositol nicotinate",
                     "Niacin"
                   ]
                 }
@@ -4148,6 +4314,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 9,
                   "drugList": [
+                    "Estradiol",
                     "Estradiol dienanthate",
                     "Estradiol cypionate",
                     "Estradiol valerate",
@@ -4169,6 +4336,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Cholic Acid",
                     "Deoxycholic Acid",
                     "Chenodeoxycholic acid"
                   ]
@@ -4190,6 +4358,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Ramelteon",
                     "Melatonin",
                     "Agomelatine",
                     "Tasimelteon"
@@ -4200,6 +4369,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Ramelteon",
                     "Melatonin",
                     "Agomelatine",
                     "Tasimelteon"
@@ -4474,6 +4644,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Abaloparatide",
                     "Teriparatide",
                     "Parathyroid hormone"
                   ]
@@ -4483,6 +4654,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Parathyroid hormone",
                     "Teriparatide"
                   ]
                 }
@@ -4497,6 +4669,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Secretin",
                     "Ezetimibe",
                     "Pegfilgrastim"
                   ]
@@ -4506,6 +4679,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Glucagon",
                     "Adomeglivant",
                     "Oxyphenbutazone",
                     "Chlordiazepoxide"
@@ -4516,6 +4690,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 11,
                   "drugList": [
+                    "Glucagon",
                     "Semaglutide",
                     "Liraglutide",
                     "Dulaglutide",
@@ -4533,6 +4708,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Glucagon",
                     "Teduglutide"
                   ]
                 },
@@ -4547,6 +4723,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Tesamorelin",
                     "Sermorelin",
                     "Moricizine"
                   ]
@@ -4561,7 +4738,9 @@ export const data = {
                   "name": "CRHR1",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Corticorelin ovine triflutate"
+                  ]
                 },
                 {
                   "name": "CRHR2",
@@ -4580,6 +4759,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Salmon calcitonin",
                     "Pramlintide",
                     "Cisplatin",
                     "Valproic Acid"
@@ -4590,6 +4770,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 4,
                   "drugList": [
+                    "Ubrogepant",
                     "Rimegepant",
                     "Erenumab",
                     "Eptinezumab"
@@ -4636,6 +4817,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 5,
                   "drugList": [
+                    "Baclofen",
                     "Progabide",
                     "Taurine",
                     "gamma-Aminobutyric acid",
@@ -4647,6 +4829,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 3,
                   "drugList": [
+                    "Baclofen",
                     "gamma-Aminobutyric acid",
                     "Colestipol Hydrochloride"
                   ]
@@ -4662,6 +4845,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Glutamic acid",
                     "(S)-alpha-methyl-4-carboxyphenylglycine"
                   ]
                 },
@@ -4681,13 +4865,16 @@ export const data = {
                   "name": "GRM4",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Glutamic acid"
+                  ]
                 },
                 {
                   "name": "GRM5",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 2,
                   "drugList": [
+                    "Rufinamide",
                     "Acamprosate"
                   ]
                 },
@@ -4701,13 +4888,17 @@ export const data = {
                   "name": "GRM7",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Glutamic acid"
+                  ]
                 },
                 {
                   "name": "GRM8",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Glutamic acid"
+                  ]
                 }
               ]
             }
@@ -4731,7 +4922,9 @@ export const data = {
                   "name": "TAS1R2",
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 1,
-                  "drugList": []
+                  "drugList": [
+                    "Sucrose"
+                  ]
                 },
                 {
                   "name": "TAS1R3",
@@ -4816,6 +5009,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 8,
                   "drugList": [
+                    "Spermine",
                     "Neomycin",
                     "Cinacalcet",
                     "Calcium Phosphate",
@@ -4848,6 +5042,7 @@ export const data = {
                   "isDruggable": true,
                   "numberOfApprovedDrugs": 6,
                   "drugList": [
+                    "Halcinonide",
                     "Sonidegib",
                     "Flucinonide",
                     "Vismodegib",
@@ -4857,61 +5052,61 @@ export const data = {
                 },
                 {
                   "name": "FZD1",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": "FZD2",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": "FZD3",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": "FZD4",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": "FZD5",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": "FZD6",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": "FZD7",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": "FZD8",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": "FZD9",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 },
                 {
                   "name": "FZD10",
-                  "isDruggable": true,
+                  "isDruggable": false,
                   "numberOfApprovedDrugs": 0,
                   "drugList": []
                 }
