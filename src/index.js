@@ -28,7 +28,6 @@ root = data;
 root.x0 = height / 2;
 root.y0 = 0;
 
-//root.children.forEach(collapse); // start with all children collapsed
 update(root);
 
 d3.select(self.frameElement).style('height', '1600px');
@@ -40,9 +39,13 @@ function update(source) {
 
   // Normalize for fixed-depth.
   nodes.forEach((d) => (d.y = d.depth * 160));
+
   //Find max value of approved drugs to set as upper bound for the color scale, 1 as lower
-  const maxApprovedDrugs = Math.max.apply(Math, nodes.filter((d)=> (d.type == undefined && d.numberOfApprovedDrugs > 0)).map((d)=> d.numberOfApprovedDrugs))
-  const colorScale = d3.scale.linear().domain([1, maxApprovedDrugs]).range([ "#a5cffa", "#001b36"])
+  const maxApprovedDrugs = Math.max.apply(
+    Math,
+    nodes.filter((d) => d.type && d.numberOfApprovedDrugs > 0).map((d) => d.numberOfApprovedDrugs)
+  );
+  const colorScale = d3.scale.linear().domain([1, maxApprovedDrugs]).range(['#a5cffa', '#001b36']);
 
   // Update the nodes…
   const node = svg.selectAll('g.node').data(nodes, (d) => {
@@ -60,8 +63,8 @@ function update(source) {
   nodeEnter
     .append('text')
     .attr('x', (d) => {
-      const sign = d.x < 180 ? 1 : -1
-      return (d.type == undefined ? 20 : 10) * sign
+      const sign = d.x < 180 ? 1 : -1;
+      return (d.type ? 20 : 10) * sign;
     })
     .attr('dy', '.35em')
     .attr('text-anchor', (d) => (d.x < 180 ? 'start' : 'end'))
@@ -82,7 +85,7 @@ function update(source) {
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => (d.type == undefined && d.isDruggable ? colorScale(d.numberOfApprovedDrugs) : '#fff'));
+    .style('fill', (d) => (d.type && d.isDruggable ? colorScale(d.numberOfApprovedDrugs) : '#fff'));
 
   nodeUpdate
     .select('text')
