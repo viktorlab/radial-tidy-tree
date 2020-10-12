@@ -9,7 +9,6 @@ const height = diameter;
 let i = 0;
 let duration = 350;
 let root;
-const colormap = { 'Class A': '#720899', 'Class B': 'green', 'Class C': 'blue', 'Class F': '#089988' };
 const tree = d3.layout
   .tree()
   .size([360, diameter / 2 - 80])
@@ -41,6 +40,9 @@ function update(source) {
 
   // Normalize for fixed-depth.
   nodes.forEach((d) => (d.y = d.depth * 160));
+  //Find max value of approved drugs to set as upper bound for the color scale, 1 as lower
+  const maxApprovedDrugs = Math.max.apply(Math, nodes.filter((d)=> (d.type == undefined && d.numberOfApprovedDrugs > 0)).map((d)=> d.numberOfApprovedDrugs))
+  const colorScale = d3.scale.linear().domain([1, maxApprovedDrugs]).range([ "#a5cffa", "#001b36"])
 
   // Update the nodes…
   const node = svg.selectAll('g.node').data(nodes, (d) => {
@@ -58,14 +60,11 @@ function update(source) {
   nodeEnter
     .append('text')
     .attr('x', (d) => {
-      if (d.type) {
-        return d.x > 180 ? -(d.name.length / 3) * 5 : 10;
-      } else {
-        return d.x > 180 ? -(d.name.length / 3) * 5 : 20;
-      }
+      const sign = d.x < 180 ? 1 : -1
+      return (d.type == undefined ? 20 : 10) * sign
     })
     .attr('dy', '.35em')
-    .attr('text-anchor', 'start')
+    .attr('text-anchor', (d) => (d.x < 180 ? 'start' : 'end'))
     .text((d) => d.name)
     .style('fill-opacity', 1e-6);
 
@@ -83,12 +82,12 @@ function update(source) {
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => (d.type == undefined && d.isDruggable ? colormap[d.parent.parent.parent.name] : '#fff'));
+    .style('fill', (d) => (d.type == undefined && d.isDruggable ? colorScale(d.numberOfApprovedDrugs) : '#fff'));
 
   nodeUpdate
     .select('text')
     .style('fill-opacity', 1)
-    .attr('transform', (d) => (d.x < 180 ? 'translate(0)' : 'rotate(180)translate(-' + (d.name.length + 50) + ')'));
+    .attr('transform', (d) => (d.x < 180 ? 'translate(0)' : 'rotate(180)'));
 
   const nodeExit = node.exit().transition().duration(duration).remove();
 
