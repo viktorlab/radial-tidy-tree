@@ -9,7 +9,7 @@ const height = diameter;
 let i = 0;
 let duration = 350;
 let root;
-let colormap = { 'Class A': '#720899', 'Class B': 'green', 'Class C': 'blue', 'Class F': '#089988' }
+const colormap = { 'Class A': '#720899', 'Class B': 'green', 'Class C': 'blue', 'Class F': '#089988' };
 const tree = d3.layout
   .tree()
   .size([360, diameter / 2 - 80])
@@ -58,10 +58,10 @@ function update(source) {
   nodeEnter
     .append('text')
     .attr('x', (d) => {
-      if (d.type != undefined) {
-        return d.x > 180 ? -(d.name.length / 3) * 5 : 10
+      if (d.type) {
+        return d.x > 180 ? -(d.name.length / 3) * 5 : 10;
       } else {
-        return d.x > 180 ? -(d.name.length / 3) * 5 : 20
+        return d.x > 180 ? -(d.name.length / 3) * 5 : 20;
       }
     })
     .attr('dy', '.35em')
@@ -78,13 +78,12 @@ function update(source) {
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) =>
-      (d.children ? 'lightsteelblue' : '#fff'));
- 
+    .style('fill', (d) => (d.children ? 'lightsteelblue' : '#fff'));
+
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => (d.type == undefined && d.isDruggable ?  colormap[d.parent.parent.parent.name] : '#fff'));
+    .style('fill', (d) => (d.type == undefined && d.isDruggable ? colormap[d.parent.parent.parent.name] : '#fff'));
 
   nodeUpdate
     .select('text')
