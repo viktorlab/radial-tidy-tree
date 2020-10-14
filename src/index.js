@@ -2,7 +2,6 @@ import { data } from './data';
 
 const diameter = 1600;
 
-const margin = { top: 20, right: 120, bottom: 20, left: 120 };
 const width = diameter;
 const height = diameter;
 
@@ -48,7 +47,7 @@ function update(source) {
 
   const colorScale = d3.scale.linear().domain([1, maxApprovedDrugs]).range(['#a5cffa', '#001b36']);
 
-  legendCreate(maxApprovedDrugs);
+  createLegend(maxApprovedDrugs);
 
   // Update the nodes…
   const node = svg.selectAll('g.node').data(nodes, (d) => {
@@ -183,7 +182,7 @@ $('#drugListModal').on('hidden.bs.modal', () => {
   $('.body-content').html('');
 });
 
-function legendCreate(maxApprovedDrugs) {
+function createLegend(maxApprovedDrugs) {
   $('.legend-container').html(`
     <div class="gradient">
       <div class="title">Number of approved drugs</div>
