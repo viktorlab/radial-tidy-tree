@@ -54,3 +54,72 @@
   width: 20px;
   background-color: #089988;
 }
+
+.gradient {
+  border: 1px solid gray;
+  background: rgb(234, 234, 241);
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+}
+.swatches {
+  background-image: linear-gradient(to right, #a5cffa, #001b36);
+  height: 16px;
+  margin: 0 10px;
+}
+
+.labels {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.label {
+  max-width: 32%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.label.min,
+.label.max {
+  position: absolute;
+  top: 0;
+  min-width: 20px;
+}
+
+.label.min {
+  left: 0;
+}
+
+.label.median {
+  margin: 0 auto;
+}
+
+.label.max {
+  right: 0;
+}
+
+.label::after {
+  display: block;
+  text-align: left;
+  content: '|';
+}
+
+.label.min::after {
+  margin-left: 10px;
+}
+
+.label.median::after {
+  text-align: center;
+}
+
+.label.max::after {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.title {
+  text-align: center;
+}
