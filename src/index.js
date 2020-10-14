@@ -39,7 +39,7 @@ function update(source) {
 
   // Normalize for fixed-depth.
   nodes.forEach((d) => (d.y = d.depth * 160));
-  
+
   //Find max value of approved drugs to set as upper bound for the color scale, 1 as lower
   const maxApprovedDrugs = Math.max.apply(
     Math,
@@ -184,7 +184,7 @@ $('#drugListModal').on('hidden.bs.modal', () => {
 });
 
 function legendCreate(maxApprovedDrugs) {
-  $('.legend-container').append(`
+  $('.legend-container').html(`
     <div class="gradient">
       <div class="title">Number of approved drugs</div>
         <div class="labels">
