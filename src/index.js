@@ -8,6 +8,84 @@ const height = diameter;
 let i = 0;
 let duration = 350;
 let root;
+let classColors = [{
+  type: "class",
+  color: "#720899"
+},
+{
+  type: "class",
+  color: "green"
+},
+{
+  type: "class",
+  color: "blue"
+},
+{
+  type: "class",
+  color: "#089988"
+},
+]
+
+let groupColors = [{
+  type: "group",
+  color: "#d04fff"
+},
+{
+  type: "group",
+  color: "#00ff00"
+},
+{
+  type: "group",
+  color: "#4545ff"
+},
+{
+  type: "group",
+  color: "#33ffe7"
+}
+]
+
+let subgroupColors = [{
+  type: "group",
+  color: "#d04fff"
+},
+{
+  type: "group",
+  color: "#00ff00"
+},
+{
+  type: "group",
+  color: "#4545ff"
+},
+{
+  type: "group",
+  color: "#33ffe7"
+},
+]
+
+let druggableColor = [{
+  type: "druggable",
+  color: "#f0c7ff"
+},
+{
+  type: "druggable",
+  color: "#b0ffb0"
+},
+{
+  type: "druggable",
+  color: "#9e9eff"
+},
+{
+  type: "druggable",
+  color: "#d9fffb"
+},
+]
+let colormap = {
+  /* classname, classColor,    groupColor     subgroupColors,     protein color (if druggable)             */
+  'Class A': [classColors[0], groupColors[0], subgroupColors[0], druggableColor[0]],
+  'Class B': [classColors[1], groupColors[1], subgroupColors[1], druggableColor[1]],
+  'Class C': [classColors[2], groupColors[2], subgroupColors[2], druggableColor[2]],
+  'Class F': [classColors[3], groupColors[3], subgroupColors[3], druggableColor[3]]
+};
 const tree = d3.layout
   .tree()
   .size([360, diameter / 2 - 80])
@@ -39,16 +117,6 @@ function update(source) {
   // Normalize for fixed-depth.
   nodes.forEach((d) => (d.y = d.depth * 160));
 
-  //Find max value of approved drugs to set as upper bound for the color scale, 1 as lower
-  const maxApprovedDrugs = Math.max.apply(
-    Math,
-    nodes.filter((d) => d.type === undefined && d.numberOfApprovedDrugs > 0).map((d) => d.numberOfApprovedDrugs)
-  );
-
-  const colorScale = d3.scale.linear().domain([1, maxApprovedDrugs]).range(['#a5cffa', '#001b36']);
-
-  createLegend(maxApprovedDrugs);
-
   // Update the nodes…
   const node = svg.selectAll('g.node').data(nodes, (d) => {
     return d.id || (d.id = ++i);
@@ -71,6 +139,8 @@ function update(source) {
     .attr('dy', '.35em')
     .attr('text-anchor', (d) => (d.x < 180 ? 'start' : 'end'))
     .text((d) => d.name)
+    .attr('dz', (d) => (d.type == undefined ? 0 : 999))
+    .style("font-weight", (d) => (d.type == undefined ? "normal" : "bold"))
     .style('fill-opacity', 1e-6);
 
   // Transition nodes to their new position.
@@ -82,12 +152,14 @@ function update(source) {
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => (d.children ? 'lightsteelblue' : '#fff'));
+    .style('fill', (d) => {
+      return getColorForNode(d)
+    });
 
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => (d.type === undefined && d.isDruggable ? colorScale(d.numberOfApprovedDrugs) : '#fff'));
+    .style('fill', (d) => getColorForNode(d));
 
   nodeUpdate
     .select('text')
@@ -160,6 +232,21 @@ function collapse(d) {
   }
 }
 
+function getColorForNode(d) {
+  if (d.type == "class") {
+    let classColor = colormap[d.name][0];
+    return classColor.color;
+  } else if (d.type == undefined && d.isDruggable) {
+    return colormap[d.parent.parent.parent.name][3].color
+  } else if (d.type == "group" || d.type == "subgroup") {
+    let colorKey = d.type == "group" ? d.parent.name : d.parent.parent.name
+    let colors = colormap[colorKey]
+    let index = d.type == "group" ? 1 : 2
+    return colors[index].color
+  }
+
+}
+
 function showDrugList(drugList) {
   buildList(drugList);
 
@@ -181,17 +268,3 @@ function buildList(data) {
 $('#drugListModal').on('hidden.bs.modal', () => {
   $('.body-content').html('');
 });
-
-function createLegend(maxApprovedDrugs) {
-  $('.legend-container').html(`
-    <div class="gradient">
-      <div class="title">Number of approved drugs</div>
-        <div class="labels">
-          <div class="label min">1</div>
-          <div class="label median">${Math.round(maxApprovedDrugs / 2)}</div>
-          <div class="label max">${maxApprovedDrugs}</div>
-        </div>
-      <div class="swatches"></div>
-    </div>
-  `);
-}
