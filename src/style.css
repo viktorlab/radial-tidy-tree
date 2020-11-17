@@ -25,6 +25,7 @@
   padding: 10px;
   width: 400px;
 }
+
 .swatches {
   background-image: linear-gradient(to right, #a5cffa, #001b36);
   height: 16px;
@@ -85,4 +86,41 @@
 
 .title {
   text-align: center;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 10px;
+  border: 1px solid;
+}
+
+.content {
+  display: flex;
+  margin: 10px;
+}
+
+.purple {
+  margin-right: 5px;
+  width: 20px;
+  background-color: #720899;
+}
+
+.blue {
+  margin-right: 5px;
+  width: 20px;
+  background-color: #302999;
+}
+
+.green {
+  margin-right: 5px;
+  width: 20px;
+  background-color: green;
+}
+
+.red {
+  margin-right: 5px;
+  width: 20px;
+  background-color: #921029;
 }
