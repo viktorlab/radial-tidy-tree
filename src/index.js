@@ -12,10 +12,10 @@ const duration = 350;
 let root;
 
 const colorMap = {
-  'Class A': '#001b36',
-  'Class B': 'green',
-  'Class C': 'blue',
-  'Class F': 'red'
+  'Class A': ['#759bd9', '#11038c'],
+  'Class B': ['#5acc9', '#037038'],
+  'Class C': ['#df80ed', '#9308a8'],
+  'Class F': ['#c94767','#bf0a37']
 };
 
 const tree = d3.layout
@@ -56,7 +56,8 @@ function update(source) {
       Math,
       nodes.filter((d) => d.type === undefined && d.numberOfApprovedDrugs > 0 && d.parent.parent.parent.name === key).map((d) => d.numberOfApprovedDrugs)
     );
-    const colorScale = d3.scale.linear().domain([1, maxApprovedDrugs]).range(['#fff', colorMap[key]]);
+    let colors = colorMap[key]
+    const colorScale = d3.scale.linear().domain([1, maxApprovedDrugs]).range([colors[0], colors[1]]);
     druggableColorScaleMap[key] = colorScale
   }
 
