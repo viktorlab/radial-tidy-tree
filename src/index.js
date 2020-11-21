@@ -13,9 +13,9 @@ let root;
 
 const colorMap = {
   'Class A': ['#759bd9', '#11038c'],
-  'Class B': ['#5acc9', '#037038'],
+  'Class B': ['#5acc91', '#037038'],
   'Class C': ['#df80ed', '#9308a8'],
-  'Class F': ['#c94767','#bf0a37']
+  'Class F': ['#c94767', '#bf0a37']
 };
 
 const tree = d3.layout
@@ -38,7 +38,6 @@ root.x0 = height / 2;
 root.y0 = 0;
 
 update(root);
-
 d3.select(self.frameElement).style('height', '1600px');
 
 function update(source) {
@@ -49,6 +48,7 @@ function update(source) {
   // Normalize for fixed-depth.
   nodes.forEach((d) => (d.y = d.depth * 160));
   const druggableColorScaleMap = new Map()
+  const maxApprovedDrugsMap = new Map()
   //Find max value of approved drugs to set as upper bound for the color scale, 1 as lower
   // Map colorScale for class name, so it can be evaluated later with d.numberOfApprovedDrugs to color the node fill 
   for (const key in colorMap) {
@@ -57,8 +57,9 @@ function update(source) {
       nodes.filter((d) => d.type === undefined && d.numberOfApprovedDrugs > 0 && d.parent.parent.parent.name === key).map((d) => d.numberOfApprovedDrugs)
     );
     let colors = colorMap[key]
-    const colorScale = d3.scale.linear().domain([1, maxApprovedDrugs]).range([colors[0], colors[1]]);
+    const colorScale = d3.interpolateRgb(colors[0], colors[1]) 
     druggableColorScaleMap[key] = colorScale
+    maxApprovedDrugsMap[key] = maxApprovedDrugs
   }
 
 
@@ -103,7 +104,14 @@ function update(source) {
   nodeUpdate
     .select('circle')
     .attr('r', 4.5)
-    .style('fill', (d) => (d.type === undefined && d.isDruggable ? druggableColorScaleMap[d.parent.parent.parent.name](d.numberOfApprovedDrugs) : '#fff'));
+    .style('fill', (d) => {
+      if (d.type === undefined && d.isDruggable) {
+        const key = d.parent.parent.parent.name
+        return druggableColorScaleMap[key](d.numberOfApprovedDrugs / maxApprovedDrugsMap[key])
+      } else if (d.type === "class") {
+        return colorMap[d.name][1]
+      } else { return '#fff' }
+    });
 
   nodeUpdate
     .select('text')
