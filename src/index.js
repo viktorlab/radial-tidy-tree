@@ -10,111 +10,34 @@ let i = 0;
 const duration = 350;
 
 let root;
-let druggableColor = [
-  {
-    type: "class",
-    color: "#720899"
-  },
-  {
-    type: "class",
-    color: "green"
-  },
-  {
-    type: "class",
-    color: "#302999"
-  },
-  {
-    type: "class",
-    color: "#921029"
-  }
-]
-
-let groupColors = [
-  {
-    type: "group",
-    color: "#d04fff"
-  },
-  {
-    type: "group",
-    color: "#00ff00"
-  },
-  {
-    type: "group",
-    color: "#4545ff"
-  },
-  {
-    type: "group",
-    color: "#db5555"
-  }
-]
-
-let subgroupColors = [
-  {
-    type: "group",
-    color: "#8f4aac"
-  },
-  {
-    type: "group",
-    color: "#65ac60"
-  },
-  {
-    type: "group",
-    color: "#6464c6"
-  },
-  {
-    type: "group",
-    color: "#d01625"
-  }
-]
-
-let classColors = [
-  {
-    type: "druggable",
-    color: "#d777cd"
-  },
-  {
-    type: "druggable",
-    color: "#b0ffb0"
-  },
-  {
-    type: "druggable",
-    color: "#9e9eff"
-  },
-  {
-    type: "druggable",
-    color: "#ee8498"
-  }
-]
 
 const colorMap = {
-  /* classname, classColor,    groupColor     subgroupColors,     protein color (if druggable)             */
-  'Class A': [classColors[0], groupColors[0], subgroupColors[0], druggableColor[0]],
-  'Class B': [classColors[1], groupColors[1], subgroupColors[1], druggableColor[1]],
-  'Class C': [classColors[2], groupColors[2], subgroupColors[2], druggableColor[2]],
-  'Class F': [classColors[3], groupColors[3], subgroupColors[3], druggableColor[3]]
+  'Class A': ['#759bd9', '#11038c'],
+  'Class B': ['#5acc91', '#037038'],
+  'Class C': ['#df80ed', '#9308a8'],
+  'Class F': ['#c94767', '#bf0a37']
 };
 
 const tree = d3.layout
-.tree()
-.size([360, diameter / 2 - 80])
-.separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth);
+  .tree()
+  .size([360, diameter / 2 - 80])
+  .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth);
 
 const diagonal = d3.svg.diagonal.radial().projection((d) => [d.y, (d.x / 180) * Math.PI]);
 
 const svg = d3
-.select('body')
-.append('svg')
-.attr('width', width)
-.attr('height', height)
-.append('g')
-.attr('transform', 'translate(' + diameter / 2 + ',' + diameter / 2 + ')');
+  .select('body')
+  .append('svg')
+  .attr('width', width)
+  .attr('height', height)
+  .append('g')
+  .attr('transform', 'translate(' + diameter / 2 + ',' + diameter / 2 + ')');
 
 root = data;
 root.x0 = height / 2;
 root.y0 = 0;
 
 update(root);
-
 d3.select(self.frameElement).style('height', '1600px');
 
 function update(source) {
@@ -124,6 +47,22 @@ function update(source) {
 
   // Normalize for fixed-depth.
   nodes.forEach((d) => (d.y = d.depth * 160));
+  const druggableColorScaleMap = new Map()
+  const maxApprovedDrugsMap = new Map()
+  //Find max value of approved drugs to set as upper bound for the color scale, 1 as lower
+  // Map colorScale for class name, so it can be evaluated later with d.numberOfApprovedDrugs to color the node fill 
+  for (const key in colorMap) {
+    const maxApprovedDrugs = Math.max.apply(
+      Math,
+      nodes.filter((d) => d.type === undefined && d.numberOfApprovedDrugs > 0 && d.parent.parent.parent.name === key).map((d) => d.numberOfApprovedDrugs)
+    );
+    let colors = colorMap[key]
+    const colorScale = d3.interpolateRgb(colors[0], colors[1]) 
+    druggableColorScaleMap[key] = colorScale
+    maxApprovedDrugsMap[key] = maxApprovedDrugs
+  }
+
+
 
   // Update the nodes…
   const node = svg.selectAll('g.node').data(nodes, (d) => {
@@ -134,45 +73,50 @@ function update(source) {
   const nodeEnter = node.enter().append('g').attr('class', 'node').on('click', handleClick);
 
   nodeEnter
-  .append('circle')
-  .attr('r', 1e-6)
-  .style('fill', (d) => (d._children ? 'lightsteelblue' : '#fff'));
+    .append('circle')
+    .attr('r', 1e-6)
+    .style('fill', (d) => (d._children ? 'lightsteelblue' : '#fff'));
 
   nodeEnter
-  .append('text')
-  .attr('x', (d) => {
-    const sign = d.x < 180 ? 1 : -1;
-    return (d.type === undefined ? 20 : 10) * sign;
-  })
-  .attr('dy', '.35em')
-  .attr('text-anchor', (d) => (d.x < 180 ? 'start' : 'end'))
-  .text((d) => d.name)
-  .attr('dz', (d) => (d.type == undefined ? 0 : 999))
-  .style('font-weight', (d) => (d.type == undefined ? 'normal' : 'bold'))
-  .style('fill-opacity', 1e-6);
+    .append('text')
+    .attr('x', (d) => {
+      const sign = d.x < 180 ? 1 : -1;
+      return (d.type === undefined ? 20 : 10) * sign;
+    })
+    .attr('dy', '.35em')
+    .attr('text-anchor', (d) => (d.x < 180 ? 'start' : 'end'))
+    .text((d) => d.name)
+    .attr('dz', (d) => (d.type == undefined ? 0 : 999))
+    .style('font-weight', (d) => (d.type == undefined ? 'normal' : 'bold'))
+    .style('fill-opacity', 1e-6);
 
   // Transition nodes to their new position.
   const nodeUpdate = node
-  .transition()
-  .duration(duration)
-  .attr('transform', (d) => 'rotate(' + (d.x - 90) + ')translate(' + d.y + ')');
+    .transition()
+    .duration(duration)
+    .attr('transform', (d) => 'rotate(' + (d.x - 90) + ')translate(' + d.y + ')');
 
   nodeUpdate
-  .select('circle')
-  .attr('r', 4.5)
-  .style('fill', (d) => {
-    return getColorForNode(d)
-  });
+    .select('circle')
+    .attr('r', 4.5)
+    .style('fill', (d) => (d.children ? 'lightsteelblue' : '#fff'));
 
   nodeUpdate
-  .select('circle')
-  .attr('r', 4.5)
-  .style('fill', (d) => getColorForNode(d));
+    .select('circle')
+    .attr('r', 4.5)
+    .style('fill', (d) => {
+      if (d.type === undefined && d.isDruggable) {
+        const key = d.parent.parent.parent.name
+        return druggableColorScaleMap[key](d.numberOfApprovedDrugs / maxApprovedDrugsMap[key])
+      } else if (d.type === "class") {
+        return colorMap[d.name][1]
+      } else { return '#fff' }
+    });
 
   nodeUpdate
-  .select('text')
-  .style('fill-opacity', 1)
-  .attr('transform', (d) => (d.x < 180 ? 'translate(0)' : 'rotate(180)'));
+    .select('text')
+    .style('fill-opacity', 1)
+    .attr('transform', (d) => (d.x < 180 ? 'translate(0)' : 'rotate(180)'));
 
   const nodeExit = node.exit().transition().duration(duration).remove();
 
@@ -185,27 +129,27 @@ function update(source) {
 
   // Enter any new links at the parent's previous position.
   link
-  .enter()
-  .insert('path', 'g')
-  .attr('class', 'link')
-  .attr('d', (d) => {
-    const o = { x: source.x0, y: source.y0 };
-    return diagonal({ source: o, target: o });
-  });
+    .enter()
+    .insert('path', 'g')
+    .attr('class', 'link')
+    .attr('d', (d) => {
+      const o = { x: source.x0, y: source.y0 };
+      return diagonal({ source: o, target: o });
+    });
 
   // Transition links to their new position.
   link.transition().duration(duration).attr('d', diagonal);
 
   // Transition exiting nodes to the parent's new position.
   link
-  .exit()
-  .transition()
-  .duration(duration)
-  .attr('d', (d) => {
-    const o = { x: source.x, y: source.y };
-    return diagonal({ source: o, target: o });
-  })
-  .remove();
+    .exit()
+    .transition()
+    .duration(duration)
+    .attr('d', (d) => {
+      const o = { x: source.x, y: source.y };
+      return diagonal({ source: o, target: o });
+    })
+    .remove();
 
   // Stash the old positions for transition.
   nodes.forEach((d) => {
@@ -238,21 +182,6 @@ function collapse(d) {
     d._children.forEach(collapse);
     d.children = null;
   }
-}
-
-function getColorForNode(d) {
-  if (d.type === 'class') {
-    const classColor = colorMap[d.name][0];
-    return classColor.color;
-  } else if (d.type === undefined && d.isDruggable) {
-    return colorMap[d.parent.parent.parent.name][3].color
-  } else if (d.type === 'group' || d.type === 'subgroup') {
-    const colorKey = d.type === 'group' ? d.parent.name : d.parent.parent.name
-    const colors = colorMap[colorKey]
-    const index = d.type === 'group' ? 1 : 2
-    return colors[index].color
-  }
-
 }
 
 function showDrugList(drugList) {
